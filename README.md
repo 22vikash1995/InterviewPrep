@@ -1,6 +1,7 @@
 # INTERVIEW QUESTIONS
 # -------Kotlin-------
 # 1. What is Inline function in kotlin?
+Ans:Inline function is a function followed by 'inline' keyword. When we use inline keyword before a function name ,the compiler does not allocate the memory.Wherever this function is invoked the piece of code is copied at calling place.
 # 2.What is Object Expression in Kotlin?
 # 3.Difference between 'object and class'.
 # 4.What is singlton class and how to make it in kotlin?
