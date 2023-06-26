@@ -4,6 +4,22 @@
 Ans: Inline function is a function followed by 'inline' keyword. When we use inline keyword before a function name ,the compiler does not allocate the memory.Wherever this function is invoked the piece of code is copied at calling place.
 # 2.What is Object Declaration and Expression in Kotlin?
 Ans: A way of creating object without class with help of 'object' keyword is called object declaration.Object has similar property as class but difference is that multiple objects can be created of same class while in case of object is not.
+e.g-
+         fun main(){
+            	println(shape.str)
+	            square.area(10)
+              }
+   //creating first object
+    object shape{
+   	val str="This is shape object"
+     }
+   //creating second object
+    object square{
+	fun area(val edge:Int):Int{
+	return edge*edge
+	}
+}
+
 # 3.Difference between 'object and class'.
 # 4.What is singlton class and how to make it in kotlin?
 # 5.Different between class and data class.
