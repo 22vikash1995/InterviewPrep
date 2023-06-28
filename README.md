@@ -57,6 +57,7 @@ Ans:There are following key difference:
    3. A **class** is created using 'class' keyword while 'object' is created either using **new** keyword or using class reference(in kotlin). 
  
 # 4.What is singlton class and how to make it in kotlin?
+Ans:Singlton class is a class that is defined in such a way only one instance can be created and used everywhere in project.
 # 5.Different between class and data class.
 # 6.What is enum block in kotlin and why it is used.?
 # 7.Types of constructors in kotlin?
