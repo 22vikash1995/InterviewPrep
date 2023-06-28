@@ -51,6 +51,7 @@ object square {
 }
 ```
 # 3.Difference between 'object and class'.
+Ans:A class is blueprint of objects while object is real-world entity.
 # 4.What is singlton class and how to make it in kotlin?
 # 5.Different between class and data class.
 # 6.What is enum block in kotlin and why it is used.?
