@@ -58,6 +58,29 @@ Ans:There are following key difference:
  
 # 4.What is singlton class and how to make it in kotlin?
 Ans:Singlton class is a class that is defined in such a way that only one instance of the class can be created and used everywhere in project.
+**In Java**
+```
+public class Singlton{
+
+private static Singlton instance=null;
+//creating constructor
+private Singlton(){
+
+}
+//creating instance of singlton class
+public static Singlton getInstance(){
+if(instance==null){
+synchronized(Singlton.class){
+if(instance==null){
+instance=new Singlton();
+}
+}
+}
+return instance;
+   }
+ }
+}
+```
 
 # 5.Different between class and data class.
 # 6.What is enum block in kotlin and why it is used.?
