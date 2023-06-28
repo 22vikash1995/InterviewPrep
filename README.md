@@ -82,6 +82,7 @@ return instance;
 }
 ```
 
+**Note:**  **synchronized** keyword ensures there is no any thread interference(i.e sharing multiple thread same data).
 # 5.Different between class and data class.
 # 6.What is enum block in kotlin and why it is used.?
 # 7.Types of constructors in kotlin?
