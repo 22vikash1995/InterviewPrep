@@ -51,7 +51,11 @@ object square {
 }
 ```
 # 3.Difference between 'object and class'.
-Ans:A class is blueprint of objects while object is real-world entity.
+Ans:There are following key difference:
+   1. A **class** is blueprint of objects while an **object** is real-world entity.
+   2. A **class** is logical entity while an **object** is physical entity.
+   3. A **class** is created using 'class' keyword while 'object' is created either using **new** keyword or using class reference(in kotlin). 
+ 
 # 4.What is singlton class and how to make it in kotlin?
 # 5.Different between class and data class.
 # 6.What is enum block in kotlin and why it is used.?
