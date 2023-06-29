@@ -82,6 +82,7 @@ return instance;
 }
 ```
 **Note:**  **synchronized** keyword ensures there is no any thread interference(i.e sharing multiple thread same data).
+<br />
 **In Kotlin**
 ```
 object Singlton{
