@@ -81,8 +81,21 @@ return instance;
  }
 }
 ```
-
 **Note:**  **synchronized** keyword ensures there is no any thread interference(i.e sharing multiple thread same data).
+**In Kotlin**
+```
+object Singlton{
+init{
+  println("This is init block")
+}
+//crating local variable
+var name="Vikash kumar"
+
+fun printName(){
+println(name)
+}
+}
+```
 # 5.Different between class and data class.
 # 6.What is enum block in kotlin and why it is used.?
 # 7.Types of constructors in kotlin?
