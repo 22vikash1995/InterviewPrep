@@ -98,6 +98,8 @@ println(name)
 }
 ```
 # 5.Different between class and data class.
+Ans: **Class** <br/>
+A class is blueprint for an object.It shares common properties and behaviour in form of members and member functions.
 # 6.What is enum block in kotlin and why it is used.?
 # 7.Types of constructors in kotlin?
 # 8. Can we create constructor in abstract class?
