@@ -101,14 +101,24 @@ println(name)
 Ans: **Class** <br/>
 A class is blueprint for an object.It shares common properties and behaviour in form of members and member functions.
 ```
-class shape{
+class Shape{
+//creating member 'edge'
   val edge=10
-
+//creating member function 'are'
 fun area(){
 println(edge*edge)
 }
+
+fun main(){
+//creating instance or obejct of shape class
+val shape=Shape()
+println(shape.edge)
+shape.area()
+}
 }
 ```
+**Data class**<br/>
+
 # 6.What is enum block in kotlin and why it is used.?
 # 7.Types of constructors in kotlin?
 # 8. Can we create constructor in abstract class?
