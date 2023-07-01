@@ -121,6 +121,13 @@ shape.area()
 Data class is a simple class which is used to hold data/state and contains standard functionality.
 A **data** keyword is used to declare data class.With the help of data class we reduce the boilerplate code.
 When we compile the code , the compiler automatically creates ```equals```, ```hashCode```,```toString``` ,```copy``` functions.
+```
+data class MobileData(
+val version:Double?=null,
+val modelName:String?=null,
+val buildNumber:String?=null)
+ 
+```
 
 # 6.What is enum block in kotlin and why it is used.?
 # 7.Types of constructors in kotlin?
