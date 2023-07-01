@@ -131,9 +131,15 @@ val buildNumber:String?=null)
 # 6.What is enum block in kotlin and why it is used.?
 Ans: When we want to store a set of same type of constant values to single variable, **enum** class comes in front.
 Each enum constant is an object. it has some inbuilt properties and functions which can be used in programing.
-**Properties:** <br/>
+<br/> **Properties:** <br/>
 1.**ordinal:** This property stores the ordinal value of the constant, which is usually zero-based index.<br/>
-2.**name:** This property store name of the constant.
+2.**name:** This property store name of the constant.<br/>
+
+**Methods -** <br/>
+1.**values:** This method returns a list of all contants defined within the enum class.<br/>
+2.**valueOf:** This method returns the enum contant defined in enum class on basis of matching the input string. if the input string is not present in enum class then it returns illegalArgumentException is thown.
+
+
 
 # 7.Types of constructors in kotlin?
 # 8. Can we create constructor in abstract class?
