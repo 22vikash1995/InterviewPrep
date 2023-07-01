@@ -137,7 +137,26 @@ Each enum constant is an object. it has some inbuilt properties and functions wh
 
 **Methods -** <br/>
 1.**values:** This method returns a list of all contants defined within the enum class.<br/>
-2.**valueOf:** This method returns the enum contant defined in enum class on basis of matching the input string. if the input string is not present in enum class then it returns illegalArgumentException is thown.
+2.**valueOf:** This method returns the enum contant defined in enum class on basis of matching the input string. if the input string is not present in enum class then it returns illegalArgumentException is thrown. Each enum constant is seperated by comma.<br/>
+**E.g** <br/>
+```
+enum class Days{
+SUNDAY,
+MUNDAY,
+TUESDAY,
+WEDNESDAY,
+THRUSDAY,
+FRIDAY,
+SATURDAY
+}
+
+fun main(){
+for(day in Days.values()){
+println("${day.ordinal}:${day.values}"
+}
+println("${day.valueOf("MONDAY)}"
+}
+```
 
 
 
