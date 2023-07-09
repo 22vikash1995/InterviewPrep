@@ -6,8 +6,7 @@ Ans: Inline function is a function followed by 'inline' keyword. When we use inl
 **Object Declaration**<br />
 Ans: A way of creating object without class with help of 'object' keyword is called object declaration.Object has similar property as class but difference is that multiple objects can be created of same class while in case of object is not.
 e.g-
-```
-fun main() {
+```fun main() {
     println(shape.str)
     println("Square is: ${square.area(10)}")
 }
@@ -167,12 +166,12 @@ Ans: There are following collections in kotlin for grouping elements:<br/>
  There are two functions for grouping items in list<br/>
  a.```listOf()``` function -> This function is used to create read-only(i.e immutable list) type list.<br/>
  ```
-
 fun main(){
 readOnlyList()
 }
 fun readOnlyList(){
     val courseList= listOf<String>("Java","Python","Kotlin","C#","C")
+     courseList.add("C++")//this will produce an error because above list can not modify
     println("First element of list is: ${courseList.first()}")
     println("Last element of list is: ${courseList.last()}")
     println("No. of element of list is: ${courseList.size}")
