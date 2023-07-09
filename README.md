@@ -158,7 +158,41 @@ println("${day.valueOf("MONDAY)}"
 }
 ```
 
+# Collections in Kotlin
+Ans: There are following collections in kotlin for grouping elements:<br/>
+ i.Lists<br/>
+ ii.Sets<br/>
+ iii.Maps<br/>
+ **List**<br/>
+ There are two functions for grouping items in list<br/>
+ a.```listOf()``` function -> This function is used to create read-only(i.e immutable list) type list.<br/>
+ ```
 
+fun main(){
+readOnlyList()
+}
+fun readOnlyList(){
+    val courseList= listOf<String>("Java","Python","Kotlin","C#","C")
+    println("First element of list is: ${courseList.first()}")
+    println("Last element of list is: ${courseList.last()}")
+    println("No. of element of list is: ${courseList.size}")
+    println("***********************************************************")
+}
+```        
+ b.```mutableListOf()``` function -> This function is used to create dynamic(i.e mutable list) type list<br/>
+
+ ```
+fun main(){
+mutableListItem()
+}
+fun mutableListItem(){
+    val courseList= mutableListOf<String>("Java","Python","Kotlin","C#","C")
+    courseList.add("C++")
+    println("First element of list is: ${courseList.first()}")
+    println("Last element of list is: ${courseList.last()}")
+    println("No. of element of list is: ${courseList.size}")
+}
+```        
 
 # 7.Types of constructors in kotlin?
 # 8. Can we create constructor in abstract class?
