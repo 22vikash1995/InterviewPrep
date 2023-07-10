@@ -193,7 +193,9 @@ fun mutableListItem(){
 }
 ```        
 **Set**
-Set is also used to create list of items but difference is that it drops the duplicate item from the list and its item can not retrive by index like list.In this all items are stored ramdomly(i.e not in a particular order)<br/>
+Set is also used to create list of items but difference is that it drops the duplicate item from the list and its item can not retrive by index like list.<br/>
+**Note:** As sets are unordered, you can't access an item at a particular index in red.
+<br/>
 i.e<br/>
 **immutable set's item**
 ```
