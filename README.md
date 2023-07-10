@@ -195,6 +195,7 @@ fun mutableListItem(){
 **Set**
 Set is also used to create list of items but difference is that it drops the duplicate item from the list and its item can not retrive by index like list.In this all items are stored ramdomly(i.e not in a particular order)<br/>
 i.e<br/>
+**immutable set's item**
 ```
 fun main(){
 readOnlyList()
@@ -205,8 +206,21 @@ fun readOnlyList(){
     println("First element of list is: ${courseList.first()}")
     println("Last element of list is: ${courseList.last()}")
     println("No. of element of list is: ${courseList.size}")
-    println("***********************************************************")
 }
+```
+**mutable set's item**
+```
+fun main(){
+readOnlyList()
+}
+fun readOnlyList(){
+    val courseList= mutableSetOf<String>("Java","Python","Kotlin","C#","C","C++")
+     courseList.add("C++")
+    println("First element of list is: ${courseList.first()}")
+    println("Last element of list is: ${courseList.last()}")
+    println("No. of element of list is: ${courseList.size}")
+}
+//Output:
 ```
 # 7.Types of constructors in kotlin?
 # 8. Can we create constructor in abstract class?
