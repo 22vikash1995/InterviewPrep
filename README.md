@@ -232,7 +232,7 @@ fun readOnlyList(){
 # 12. What is OOP?
 # 13. What is sealed class why it is used?
 # 14.What is Coroutine in kotlin?
-Ans: A Coroutine is a framework developed by jetbrain. it is conceptually similar to thread which allow to run a piece of code concurrently with rest of the code. 
+Ans: A Coroutine is a framework developed by jetbrain. It is conceptually similar to thread which allow to run a piece of code concurrently with rest of the code. It is not bound to any other thread .It may suspend its execution in one thread and resume another one. 
 # 15.What are dispachers.Explain?
 
 # -------Android---------
