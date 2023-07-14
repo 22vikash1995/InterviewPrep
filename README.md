@@ -233,6 +233,17 @@ fun readOnlyList(){
 # 13. What is sealed class why it is used?
 # 14.What is Coroutine in kotlin?
 Ans: A Coroutine is a framework developed by jetbrain. It is conceptually similar to thread which allow to run a piece of code concurrently with rest of the code. It is not bound to any other thread .It may suspend its execution in one thread and resume another one. 
+```
+fun main() = runBlocking { // this: CoroutineScope
+    launch { // launch a new coroutine and continue
+        delay(1000L) // non-blocking delay for 1 second (default time unit is ms)
+        println("World!") // print after delay
+    }
+    println("Hello") // main coroutine continues while a previous one is delayed
+}
+```
+**launch**: it is a coroutine builder that creates new coroutine within coroutinescope.<br/>
+**runBlocking**: It is also a coroutine builder but it creates coroutiine scope where coroutine builder (i.e launch) creates coroutines.
 # 15.What are dispachers.Explain?
 
 # -------Android---------
