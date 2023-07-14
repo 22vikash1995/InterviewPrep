@@ -243,7 +243,7 @@ fun main() = runBlocking { // this: CoroutineScope
 }
 ```
 **launch**: it is a coroutine builder that creates new coroutine within coroutinescope.<br/>
-**runBlocking**: It is also a coroutine builder but it creates coroutiine scope where coroutine builder (i.e launch) creates coroutines.
+**runBlocking**: It is also a coroutine builder but it creates coroutiine scope where coroutine builder (i.e launch) creates coroutines. Outside of coroutiine scope we can not use any coroutine builder like launch. 
 # 15.What are dispachers.Explain?
 
 # -------Android---------
