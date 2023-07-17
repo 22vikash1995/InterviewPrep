@@ -295,7 +295,7 @@ class AuthLog: Log {
     }
 }
 ```
-<br/>
+
 # 8. Can we create constructor in abstract class?
 # 9. Difference between interface and abstract class.
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
