@@ -194,7 +194,7 @@ fun mutableListItem(){
 ```        
 **Set**
 Set is also used to create list of items but difference is that it drops the duplicate item from the list and its item can not retrive by index like list.<br/>
-**Note:** As sets are unordered, you can't access an item at a particular index in red.
+**Note:** As sets are unordered, you can't access an item at a particular index.
 <br/>
 i.e<br/>
 **immutable set's item**
