@@ -230,8 +230,23 @@ It is a special member function that is called when an object is instantiated (c
 In Kotlin, there are two types of constructors:
 
 Primary constructor - concise way to initialize a class
-Secondary constructor - allows you to put additional initialization logic
+Secondary constructor - allows you to put additional initialization logic. 
 
+Primary Constructor<br/>
+The primary constructor is part of the class header. Here's an example:<br/>
+```
+fun main(args: Array<String>) {
+
+    val person1 = Person("Joe", 25)
+
+    println("First Name = ${person1.firstName}")
+    println("Age = ${person1.age}")
+}
+
+class Person(val firstName: String, var age: Int) {
+
+}
+```
 # 8. Can we create constructor in abstract class?
 # 9. Difference between interface and abstract class.
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
