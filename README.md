@@ -227,6 +227,10 @@ fun readOnlyList(){
 # 7.Types of constructors in kotlin?
 Ans:A constructor is a concise way to initialize class properties.<br/>
 It is a special member function that is called when an object is instantiated (created). <br/>
+In Kotlin, there are two types of constructors:
+
+Primary constructor - concise way to initialize a class
+Secondary constructor - allows you to put additional initialization logic
 
 # 8. Can we create constructor in abstract class?
 # 9. Difference between interface and abstract class.
