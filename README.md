@@ -249,8 +249,29 @@ class Person(val firstName: String, var age: Int) {
 ```
 <br/>
 There are other ways of using primary constructors.<br/>
+Primary Constructor and Initializer Blocks<br/>
 
+To put the initilization code (not only code to initialize properties), initializer block is used. It is prefixed with init keyword. Let's modify the above example with initializer block:
+<br/>
+```
+fun main(args: Array<String>) {
+    val person1 = Person("joe", 25)
+}
 
+class Person(fName: String, personAge: Int) {
+    val firstName: String
+    var age: Int
+
+    // initializer block
+    init {
+        firstName = fName.capitalize()
+        age = personAge
+
+        println("First Name = $firstName")
+        println("Age = $age")
+    }
+}
+```
 # 8. Can we create constructor in abstract class?
 # 9. Difference between interface and abstract class.
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
