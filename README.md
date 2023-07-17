@@ -225,6 +225,9 @@ fun readOnlyList(){
 //Output:
 ```
 # 7.Types of constructors in kotlin?
+Ans:A constructor is a concise way to initialize class properties.<br/>
+It is a special member function that is called when an object is instantiated (created). <br/>
+
 # 8. Can we create constructor in abstract class?
 # 9. Difference between interface and abstract class.
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
