@@ -274,8 +274,9 @@ class Person(fName: String, personAge: Int) {
 ```
 <br/>
 # Kotlin Secondary Constructor
-In Kotlin, a class can also contain one or more secondary constructors. They are created using ```constructor``` keyword.
+In Kotlin, a class can also contain one or more secondary constructors. They are created using ``` constructor ``` keyword.
 <br/>
+
 ```
 class Log {
     constructor(data: String) {
@@ -294,6 +295,7 @@ class AuthLog: Log {
         // code
     }
 }
+
 ```
 
 # 8. Can we create constructor in abstract class?
