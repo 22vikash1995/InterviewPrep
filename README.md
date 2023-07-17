@@ -274,9 +274,28 @@ class Person(fName: String, personAge: Int) {
 ```
 <br/>
 # Kotlin Secondary Constructor
-In Kotlin, a class can also contain one or more secondary constructors. They are created using constructor keyword.
+In Kotlin, a class can also contain one or more secondary constructors. They are created using ```constructor``` keyword.
 <br/>
+```
+class Log {
+    constructor(data: String) {
+        // code
+    }
+    constructor(data: String, numberOfData: Int) {
+        // code
+    }
+}
 
+class AuthLog: Log {
+    constructor(data: String): super(data) {
+        // code
+    }
+    constructor(data: String, numberOfData: Int): super(data, numberOfData) {
+        // code
+    }
+}
+```
+<br/>
 # 8. Can we create constructor in abstract class?
 # 9. Difference between interface and abstract class.
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
