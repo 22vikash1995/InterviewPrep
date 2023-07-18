@@ -340,51 +340,44 @@ fun main() = runBlocking { // this: CoroutineScope
 Ans:<br/>
 **Case:1 When Fragment launched** <br/>
 ```
-onAttach()<br/>
-onCreate()<br/>
-onActivityCreated()<br/>
-onStart()<br/>
+onAttach()
+onCreate()
+onActivityCreated()
+onStart()
 onResume()
 ```
-<br/>
 **Case:2 While navigating from FragmentA to FragmentB** <br/>
 ```
-onAttach()<br/>
-onCreate()<br/>
-onActivityCreated()<br/>
-onStart()<br/>
+onAttach()
+onCreate()
+onActivityCreated()
+onStart()
 onResume()
 ```
-<br/>
-
-**Case:3 When come back from other applicatcation** <br/>
+**Case:3 When come back from other applicatcation** 
 ```
-onStart()<br/>
+onStart()
 onResume()
 ```
+**Case:4 When come back from FragB to FragA**
 <br/>
-**Case:4 When come back from FragB to FragA** <br/>
 **for FragB**
 ```
-onStart()<br/>
+onStart()
 onResume()
 ```
-<br/>
 **for FragA**
 ```
-onStart()<br/>
+onStart()
 onResume()
 ```
-<br/>
 **Case:4 When press back button** <br/>
-```
-onPause()<br/>
-onStop()<br/>
-onDestroyView()<br/>
-onDestroy()<br/>
+```onPause()
+onStop()
+onDestroyView()
+onDestroy()
 onDetach()
 ```
-<br/>
 
 
 
