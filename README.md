@@ -348,6 +348,12 @@ onResume()
 ```
 **Case:2 While navigating from FragmentA to FragmentB** <br/>
 ```
+//in fragA
+onPause()
+onStop()
+onDestroyView()//after few milli second
+
+//in FragB
 onAttach()
 onCreate()
 onActivityCreated()
@@ -363,11 +369,15 @@ onResume()
 <br/>
 **for FragB**
 ```
-onStart()
-onResume()
+onPause()
+onStop()
+onDestroyView()
+onDestroy()
+onDetach()
 ```
 **for FragA**
 ```
+onActivityCreated()
 onStart()
 onResume()
 ```
