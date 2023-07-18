@@ -336,8 +336,26 @@ fun main() = runBlocking { // this: CoroutineScope
 # 15.Why developer used MVVM architecture?
 # 16.Difference between intent and intent-filter?
 # 17.How communicate between fragments?
-
-
+# Explain all states of fragment
+Ans:<br/>
+**Case:1 When Fragment launched** <br/>
+```
+onAttach()<br/>
+onCreate()<br/>
+onActivityCreated()<br/>
+onStart()<br/>
+onResume()
+```
+<br/>
+**Case:1 While navigating from FragmentA to FragmentB** <br/>
+```
+onAttach()<br/>
+onCreate()<br/>
+onActivityCreated()<br/>
+onStart()<br/>
+onResume()
+```
+<br/>
 
 
 
