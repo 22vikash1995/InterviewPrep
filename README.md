@@ -347,7 +347,7 @@ onStart()<br/>
 onResume()
 ```
 <br/>
-**Case:1 While navigating from FragmentA to FragmentB** <br/>
+**Case:2 While navigating from FragmentA to FragmentB** <br/>
 ```
 onAttach()<br/>
 onCreate()<br/>
@@ -357,6 +357,34 @@ onResume()
 ```
 <br/>
 
+**Case:3 When come back from other applicatcation** <br/>
+```
+onStart()<br/>
+onResume()
+```
+<br/>
+**Case:4 When come back from FragB to FragA** <br/>
+**for FragB**
+```
+onStart()<br/>
+onResume()
+```
+<br/>
+**for FragA**
+```
+onStart()<br/>
+onResume()
+```
+<br/>
+**Case:4 When press back button** <br/>
+```
+onPause()<br/>
+onStop()<br/>
+onDestroyView()<br/>
+onDestroy()<br/>
+onDetach()
+```
+<br/>
 
 
 
