@@ -363,8 +363,23 @@ Ans:
 **2.UnChecked Exception** – Exceptions that are generally due to logical errors and checked at the run time, for example NullPointerException, ArrayIndexOutOfBoundException etc.<br/>
 **Kotlin Exceptions –** <br/>
 In Kotlin, we have only unchecked exceptions and can be caught only at run time. All the exception classes are descendants of Throwable class.
-We generally use the throw-expression, to throw an exception object –
+We generally use the throw-expression, to throw an exception object –<br/>
 ``` throw Exception("Throw me") ```.
+<br/>
+**Kotlin try-catch block –** <br/>
+In Kotlin, we use try-catch block for exception handling in the program.<br/>
+```
+import kotlin.ArithmeticException
+fun main(args : Array<String>){
+	try{
+		var num = 10 / 0
+	}
+	catch(e: ArithmeticException){
+		// caught and handles it
+		println("Divide by zero not allowed")
+	}
+}
+```
 
 # 11. How can we create custom exception?
 # 12. What is OOP?
