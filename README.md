@@ -299,6 +299,26 @@ class AuthLog: Log {
 ```
 Here, constructors of the derived class AuthLog calls the corresponding constructor of the base class Log. For that, super() is used.
 # 8. Can we create constructor in abstract class?
+Ans: Yes! an abstract calss can also have constructor like regular class.
+```
+//creating abstract class
+abstract class Person(name:String,age:Int){
+abstract fun personalDetail()
+abstract fun qualification()
+}
+//implementation of abstract class in employee class
+class Employee(val name:String,val age:Int :Person(name,age){
+@override
+personalDetail(){
+ println("Name of employee is:$name")
+}
+
+@override
+qualification(){
+//do something here
+}
+}
+```
 # 9. Difference between interface and abstract class.
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
 # 11. How can we create custom exception?
