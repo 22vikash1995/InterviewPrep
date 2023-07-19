@@ -320,6 +320,7 @@ qualification(){
 }
 ```
 # 9. Difference between interface and abstract class.
+Ans: if you want a single class that can have both optional and required method to override in a class, you can use Abstract class.
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
 # 11. How can we create custom exception?
 # 12. What is OOP?
