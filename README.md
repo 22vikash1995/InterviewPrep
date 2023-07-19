@@ -414,7 +414,33 @@ Ans: Kotlin provides many built-in Exception Classes like IOException, ClassNotF
 In addition we can also create custom exceptions. Each exception has following three properties:<br/>
 **.** Message <br/>
 **.** Stack Trace <br/>
-**.**Cause(optional) <br/>
+**.** Cause(optional) <br/>
+**Syntax:** <br/>
+``` class CustomExceptionName(message: String) : Exception(message) ``` <br/>
+**custon_exception.kt** <br/>
+``` class InvalidNameException(message: String) : Exception(message) ``` <br/>
+**example.kt** <br/>
+```
+fun main(args: Array<String>) {
+ 
+    var name = "Tutorial 60"
+ 
+    try {
+        validateName(name)
+    } catch (e : InvalidNameException){
+        println(e.message)
+    } catch (e : Exception){
+        println(e.message)
+    }
+ 
+}
+ 
+fun validateName(name : String){
+    if(name.matches(Regex(".*\\d+.*"))) {
+        throw InvalidNameException("Your name : $name : contains numerals.")
+    }
+}
+```
 # 12. What is OOP?
 # 13. What is sealed class why it is used?
 # 14.What is Coroutine in kotlin?
