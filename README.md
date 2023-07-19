@@ -360,7 +360,11 @@ Ans:
 ``` Throwable ``` is the root class of exceptions.An exception is an unwanted event that disrupts the normal flow of the program. It is an object which is thrown at runtime.**Exception handling** is a technique, using which we can handle errors and prevent run time crashes that can stop our program.<br/>
 **There are two types of Exceptions** <br/>
 **1.Checked Exception:** - This type of exception is checked at compile time and typically set on methods. For example IOException, FileNotFoundException etc.
-**2.UnChecked Exception** – Exceptions that are generally due to logical errors and checked at the run time, for example NullPointerException, ArrayIndexOutOfBoundException etc
+**2.UnChecked Exception** – Exceptions that are generally due to logical errors and checked at the run time, for example NullPointerException, ArrayIndexOutOfBoundException etc.<br/>
+**Kotlin Exceptions –** <br/>
+In Kotlin, we have only unchecked exceptions and can be caught only at run time. All the exception classes are descendants of Throwable class.
+We generally use the throw-expression, to throw an exception object –
+``` throw Exception("Throw me") ```.
 
 # 11. How can we create custom exception?
 # 12. What is OOP?
