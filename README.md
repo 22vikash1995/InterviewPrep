@@ -321,6 +321,35 @@ qualification(){
 ```
 # 9. Difference between interface and abstract class.
 Ans: if you want a single class that can have both optional and required method to override in a class, you can use Abstract class.
+```
+fun main() {
+    val rect = Rectangle(2,3)
+    println("Area: ${rect.computeArea()}")
+    println("Perimeter: ${rect.computePerimeter()}")
+    rect.defaultColor()
+}
+abstract class Shape{
+    lateinit var color: String
+
+    private val shapeColor: String
+        get() = color
+
+    init {
+        color = "pink"
+    }
+    fun defaultColor(){
+        println("The shape's default color is $shapeColor.")
+    }
+    abstract fun side(): Int
+    abstract fun computeArea(): Double
+    abstract fun computePerimeter(): Double
+}
+class Rectangle(var l: Int, var w: Int): Shape(){
+    override fun side(): Int = 4
+    override fun computeArea(): Double = (w*l).toDouble()
+    override fun computePerimeter(): Double = (2*(l+w)).toDouble()
+}
+```
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
 # 11. How can we create custom exception?
 # 12. What is OOP?
