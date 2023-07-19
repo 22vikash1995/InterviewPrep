@@ -355,6 +355,9 @@ class Rectangle(var l: Int, var w: Int): Shape(){
 An Interface is used when you want to achieve 100% abstraction. Because an interface does not accept the construtor,body of functions instead of declaration only, it can not itantiated. The core diff. between abstract and interface class is that an abstract class can have constructors,abstract function as well as no-abstract functions while interface have not.
 
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
+Ans:``` Throwable ``` is the root class of exceptions.
+![png;base64669bf411b9dbea2c](https://github.com/22vikash1995/InterviewPrep/assets/69666373/9e48209c-670a-4649-908b-a073c8bb288a)
+
 # 11. How can we create custom exception?
 # 12. What is OOP?
 # 13. What is sealed class why it is used?
