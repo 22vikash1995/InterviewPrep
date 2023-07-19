@@ -410,6 +410,11 @@ fun test(password: String) {
 }
 ```
 # 11. How can we create custom exception?
+Ans: Kotlin provides many built-in Exception Classes like IOException, ClassNotFoundException, ArithmeticException, etc. These are thrown at runtime by JVM when it encounters something it could not handle.<br/>
+In addition we can also create custom exceptions. Each exception has following three properties:<br/>
+**.** Message <br/>
+**.** Stack Trace <br/>
+**.**Cause(optional) <br/>
 # 12. What is OOP?
 # 13. What is sealed class why it is used?
 # 14.What is Coroutine in kotlin?
