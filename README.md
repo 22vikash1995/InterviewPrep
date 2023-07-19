@@ -355,8 +355,12 @@ class Rectangle(var l: Int, var w: Int): Shape(){
 An Interface is used when you want to achieve 100% abstraction. Because an interface does not accept the construtor,body of functions instead of declaration only, it can not itantiated. The core diff. between abstract and interface class is that an abstract class can have constructors,abstract function as well as no-abstract functions while interface have not.
 
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
-Ans:``` Throwable ``` is the root class of exceptions.
+Ans:
 ![png;base64669bf411b9dbea2c](https://github.com/22vikash1995/InterviewPrep/assets/69666373/9e48209c-670a-4649-908b-a073c8bb288a)
+``` Throwable ``` is the root class of exceptions.An exception is an unwanted event that disrupts the normal flow of the program. It is an object which is thrown at runtime.**Exception handling** is a technique, using which we can handle errors and prevent run time crashes that can stop our program.<br/>
+**There are two types of Exceptions** <br/>
+**1.Checked Exception:** - This type of exception is checked at compile time and typically set on methods. For example IOException, FileNotFoundException etc.
+**2.UnChecked Exception** – Exceptions that are generally due to logical errors and checked at the run time, for example NullPointerException, ArrayIndexOutOfBoundException etc
 
 # 11. How can we create custom exception?
 # 12. What is OOP?
