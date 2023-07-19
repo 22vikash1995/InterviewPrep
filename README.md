@@ -409,7 +409,6 @@ fun test(password: String) {
 		println("Strong password")
 }
 ```
-
 # 11. How can we create custom exception?
 # 12. What is OOP?
 # 13. What is sealed class why it is used?
@@ -427,6 +426,10 @@ fun main() = runBlocking { // this: CoroutineScope
 **launch**: it is a coroutine builder that creates new coroutine within coroutinescope.<br/>
 **runBlocking**: It is also a coroutine builder but it creates coroutiine scope where coroutine builder (i.e launch) creates coroutines. Outside of coroutiine scope we can not use any coroutine builder like launch. 
 # 15.What are dispachers.Explain?
+# 16.Difference between comparing String using == and .equals() method?
+Ans: 
+1.**==** is operator whereas **.equals()** is method.<br/>
+2.**==** operator is used to compare reference or memory location of objects in a heap while **.equals()** method is used to compare **contents** in objects.<br/>
 
 # -------Android---------
 # 1.Explain all states of activity?
