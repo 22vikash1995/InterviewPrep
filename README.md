@@ -320,6 +320,7 @@ qualification(){
 }
 ```
 # 9. Difference between interface and abstract class.
+**Abstract class** <br/>
 Ans: if you want a single class that can have both optional and required method to override in a class, you can use Abstract class.
 ```
 fun main() {
@@ -350,6 +351,9 @@ class Rectangle(var l: Int, var w: Int): Shape(){
     override fun computePerimeter(): Double = (2*(l+w)).toDouble()
 }
 ```
+**Interface** <br/>
+An Interface is used when you want to achieve 100% abstraction. Because an interface does not accept the construtor,body of functions instead of declaration only, it can not itantiated. The core diff. between abstract and interface class is that an abstract class can have constructors,abstract function as well as no-abstract functions while interface have not.
+
 # 10.What is root class of exception? and diff. between checked and unchecked exception?
 # 11. How can we create custom exception?
 # 12. What is OOP?
