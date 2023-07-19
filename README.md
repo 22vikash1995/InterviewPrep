@@ -380,6 +380,20 @@ fun main(args : Array<String>){
 	}
 }
 ```
+**Kotlin finally block –** <br/>
+In Kotlin, finally block is always executes irrespective of whether an exception is handled or not by the catch block. So it is used to execute important code statement.<br/>
+```
+fun main(args : Array<String>){
+	try{
+		var ar = arrayOf(1,2,3,4,5)
+		var int = ar[6]
+		println(int)
+	}
+finally {
+		println("This block always executes")
+	}
+}
+```
 
 # 11. How can we create custom exception?
 # 12. What is OOP?
