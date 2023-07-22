@@ -479,7 +479,9 @@ Ans:
 # 15.Why developer used MVVM architecture?
 # 16.Difference between intent and intent-filter?
 # 17.How communicate between fragments?
-# Explain all states of fragment
+# 18.What is ViewModel?
+Ans: ViewModel is a part of **Android Jetpack** .It is desined to manage UI-related data in the lifecycle of Activities or fragments.
+# 19.Explain all states of fragment
 Ans:<br/>
 **Case:1 When Fragment launched** <br/>
 ```
