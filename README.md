@@ -534,6 +534,7 @@ onDestroy()
 onDetach()
 ```
 
-
+# Dagger Hilt
+# Explain annotation used in di(dependency ijection) @HiltAndroidApp ,@AndroidEntryPoint.
 
 
