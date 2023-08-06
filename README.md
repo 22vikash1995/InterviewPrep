@@ -462,6 +462,27 @@ Ans:
 1.**==** is operator whereas **.equals()** is method.<br/>
 2.**==** operator is used to compare reference or memory location of objects in a heap while **.equals()** method is used to compare **contents** in objects.<br/>
 
+# 17. What is inner class in kotlin.
+Ans:When we want to access members(fields and methods) of outer class within child class without using inheritance 'inner' class is used.
+<br/>e.g<br/>
+```
+class MovieAdapter:RecyclerView.Adapter<MovieAdapter.MovieViewHolder>(){
+   private val outer_item:String="testing"
+   inner class MovieViewHolder(private val itemViewBinding:ItemLayoutBinding):RecyclerView.ViewHolder(itemViewBinding.root){
+       fun bind(results: Results){
+          itemViewBinding.apply {
+             Glide.with(root.context)
+                .load(Constant.IMAGE_BASE_URL+results.poster_path)
+                .placeholder(R.drawable.ic_movie)
+                .into(itemViewBinding.imageOfMovies)
+             titleOfMovie.text=results.title
+             descriptionOfMovie.text=results.overview
+          }
+          Log.d("foreign_item",outer_item)
+       }
+
+   }
+```
 # -------Android---------
 # 1.Explain all states of activity?
 # 2.What is android architecture?
