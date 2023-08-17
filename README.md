@@ -483,6 +483,16 @@ class MovieAdapter:RecyclerView.Adapter<MovieAdapter.MovieViewHolder>(){
 
    }
 ```
+
+# Scope function in kotlin.
+Ans:Scope function is used to execute a block of code within the context of an object.Calling these functions on an object with lemda expression ,creates temporary scope.<br/>
+**Types of Scope functions**<br/>
+1.let<br/>
+2.run<br/>
+3.with<br/>
+4.apply<br/>
+5.also
+
 # -------Android---------
 # 1.Explain all states of activity?
 # 2.What is android architecture?
