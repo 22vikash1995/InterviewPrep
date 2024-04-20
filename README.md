@@ -567,5 +567,37 @@ onDetach()
 
 # Dagger Hilt
 # Explain annotation used in di(dependency ijection) @HiltAndroidApp ,@AndroidEntryPoint.
+# Basic coding questions
+```
+class HelloWorld {
+//function to print the fabonacci series
+     public static void fabonacci(){
+            int a=0,b=1;
+            int res;
+            for(int i=2;i<=7;i++){
+                 res=a+b;
+                 a=b;
+                 b=res;
+                 System.out.println(""+res);
+            }
+           
+        }
+//function to print fatorial ofa number
+         public static void factorial(int n){
+            int res=1;
+            for(int i=0;i<n;i++){
+                res*=(n-i);
+            }
+            
+            System.out.println(""+res);
+           
+        }
+    public static void main(String[] args) {
+        factorial(6);
+       // fabonacci();
+        System.out.println("Try programiz.pro");
+    }
+}
+```
 
 
