@@ -20,7 +20,20 @@ fun main() {
    Output: [e, l, p, p, A]
 }
 ```
-
+# 2. Write a kotlin program to reverse a character Array without using the inbuild function.
+```
+fun main() {
+       
+    val str="Apple"
+    val str_bldr=StringBuilder()
+    for(i in str.length-1 downTo 0){
+        str_bldr.append(str[i])
+    }
+     println(str_bldr)
+    
+      
+}
+```
 
 # -------Kotlin-------
 # 1. What is Inline function in kotlin?
