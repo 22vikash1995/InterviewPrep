@@ -30,7 +30,9 @@ fun main() {
         str_bldr.append(str[i])
     }
      println(str_bldr)
-    
+
+--------------------------------
+   Output: elppA
       
 }
 ```
