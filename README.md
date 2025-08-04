@@ -16,10 +16,11 @@ fun main() {
         end--
     }
      println(str.contentToString())
-        
+ --------------------------------
+   Output: [e, l, p, p, A]
 }
 ```
-# Output: [e, l, p, p, A]
+
 
 # -------Kotlin-------
 # 1. What is Inline function in kotlin?
