@@ -1,4 +1,26 @@
 # INTERVIEW QUESTIONS
+# Logical Codding QNs
+# 1. Write a kotlin program to reverse a character Array without using the inbuild function.
+```
+fun main() {
+       
+    val str="Apple".toCharArray()
+  // or val str=charArrayOf('A','P','P','L','E')
+    var start=0
+    var end=str.size-1
+    while(start<end){
+        var temp=str[start]
+        str[start]=str[end]
+        str[end]=temp
+        start++
+        end--
+    }
+     println(str.contentToString())
+        
+}
+```
+# Output: [e, l, p, p, A]
+
 # -------Kotlin-------
 # 1. What is Inline function in kotlin?
 Ans: Inline function is a function followed by 'inline' keyword. When we use inline keyword before a function ,the compiler does not allocate the memory.Wherever this function is invoked the piece of code is copied at calling place.
