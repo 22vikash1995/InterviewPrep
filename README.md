@@ -20,7 +20,7 @@ fun main() {
    Output: [e, l, p, p, A]
 }
 ```
-# 2. Write a kotlin program to reverse a character Array without using the inbuild function.
+# 2. Write a kotlin program to reverse a String without using the inbuild function.
 ```
 fun main() {
        
